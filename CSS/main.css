@@ -1,0 +1,93 @@
+
+body {
+    font-family: Merriweather, Georgia, serif;
+    font-family: 'Titillium Web', sans-serif;
+ }
+
+ hr {
+    height: 0.0625rem;
+}
+
+.sg-hr-short {
+    margin-top: 0;
+    height: 0.18rem;
+    background-color: grey;
+    margin-left: 0rem;
+    width: 11.25rem;
+}
+
+.sg-hr-long {
+    margin: 2rem 0;
+    height: 0.18rem;
+    background-color: grey;
+}
+
+
+ /****** Landing Page *******/
+
+/* .webcreate {
+    color: #8CB4A8;
+    font-size: 90px;
+    font-family: Merriweather, Georgia, serif;
+   
+}
+
+span {
+    font-size: 75px;
+    color: #505151;
+} */
+
+
+
+/****** Portfolio *******/
+
+
+.row.equal-height > [class*='col'] {
+    display: flex;
+}
+
+
+
+/****** About Me *******/
+
+
+#about {
+    color: white;
+    background: #BCE0E0;
+    height: 420px;
+}
+
+
+
+/****** Contact *******/
+
+.contact {
+    background-color: red;
+}
+
+
+
+/* Media Queries */
+
+
+
+
+
+@media (min-width: 1200px){
+    .container-fluid {
+        max-width: 1140px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
